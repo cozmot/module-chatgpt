@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--
+  ~ Cozmot
+  ~
+  ~ NOTICE OF LICENSE
+  ~ This source file is subject to the cozmot.com license that is
+  ~ available through the world-wide-web at this URL:
+  ~ https://cozmot.com/end-user-license-agreement
+  ~
+  ~ DISCLAIMER
+  ~
+  ~ Do not edit or add to this file if you wish to upgrade this extension to newer
+  ~ version in the future.
+  ~
+  ~ @category    Commerce
+  ~ @package     Module
+  ~ @copyright   Copyright (c) Cozmot (https://cozmot.com/)
+  ~ @license     https://cozmot.com/end-user-license-agreement
+  ~
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <chatgpt>
+            <general>
+                <enabled>1</enabled>
+                <attribute>name</attribute>
+                <api_secret backend_model="Magento\Config\Model\Config\Backend\Encrypted"/>
+                <description_words_count>600</description_words_count>
+                <short_description_words_count>100</short_description_words_count>
+            </general>
+        </chatgpt>
+    </default>
+</config>

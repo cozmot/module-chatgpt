@@ -1,0 +1,26 @@
+{
+    "name": "cozmot/module-chatgpt",
+    "version": "1.0.0",
+    "description": "Magento 2 ChatGPT Generator Extension",
+    "type": "magento2-module",
+    "require": {
+        "cozmot/module-base": "1.0.*"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Cozmot",
+            "email": "info@cozmot.com",
+            "homepage": "https://cozmot.com",
+            "role": "Technical Support"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cozmot\\ChatGpt\\": ""
+        }
+    }
+}
